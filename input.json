@@ -1,0 +1,27 @@
+{
+  "f1": {
+    "ranges": [[-2, 2]],
+    "func": "lambda x: math.sin(x) - 2 * x ** 2 + 1 / 2",
+    "str_f": "f(x) = sin(x) - 2 * x^2 + 1 / 2"
+  },
+  "f2": {
+    "ranges": [[-1, 1]],
+    "func": "lambda x: math.sqrt(1 - x ** 2) - math.e ** x + 0.1",
+    "str_f": "f(x) = sqrt(1 - x^2) - e^x + 0.1"
+  },
+  "f3": {
+    "ranges": [[-1, 0], [0, 1], [1, 2]],
+    "func": "lambda x: x ** 6 - 5 * x ** 3 + 3 * x + 2",
+    "str_f": "f(x) = x^6 - 5 * x^3 + 3 * x + 2"
+  },
+  "f4": {
+    "ranges": [[0.0001, 1], [1, 5]],
+    "func": "lambda x: math.log(3 * x / 2) + 5 / (1 + x ** 2)",
+    "str_f": "f(x) = ln(3 * x / 2) + 5 / (1 + x^2)"
+  },
+  "f5": {
+    "ranges": [[0, 2]],
+    "func": "lambda x: 3 ** x - 5 * x + 1",
+    "str_f": "f(x) = 3^x - 5 * x + 1"
+  }
+}
